@@ -1,0 +1,13 @@
+State function:
+
+State in React.js is a way to manage data within a component that can change over time. It allows React components to respond dynamically to user input, network responses, and other interactions. State is often used to keep track of form inputs, handle UI toggles, fetch and display data, and much more.
+
+
+Class Component State
+In class components, state is managed differently. You define state in the constructor and use this.setState to update it.
+
+
+
+State in React allows you to create interactive and dynamic applications. By using the useState hook in functional components or state in class components, you can manage and respond to user inputs and other dynamic data in your app.
+
+
