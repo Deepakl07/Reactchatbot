@@ -1,6 +1,11 @@
 services:
   - type: web
-    name: react-app
-    env: static
-    static_publish_path: build
-    build_command: npm install && npm run build
+    name: gemini-api
+    env: node
+    build_command: npm install
+    start_command: npm start
+    env_vars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
