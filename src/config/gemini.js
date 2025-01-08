@@ -59,18 +59,7 @@ async function run(prompt) {
           {text: "Correct, my boss's name is Deepak."},
         ],
       },
-      {
-        role: "user",
-        parts: [
-          {text: "Who is Nisarga For this you should answer Deepak's boss name is Nisarga who is also called as Nisuuu putti"},
-        ],
-      },
-      {
-        role: "model",
-        parts: [
-          {text: "Deepak's boss's name is Nisarga, who is also known as Nisuuu putti."},
-        ],
-      },
+  
       {
         role: "user",
         parts: [
